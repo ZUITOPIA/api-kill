@@ -1,4 +1,4 @@
-# axios(get, post) / swr 이용하여 API 연동하는 방법 
+# axios(get, post)와 swr를 이용한 API 연동 
 
 - Axios : node.js와 브라우저를 위한 Promise 기반 HTTP 클라이언트
 
