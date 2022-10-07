@@ -1,6 +1,4 @@
-# nextjs-boilerplate
-
-axios(get, post) / swr 이용하여 API 연동하기
+# axios(get, post) / swr 이용하여 API 연동하기
 
 - Axios : node.js와 브라우저를 위한 Promise 기반 HTTP 클라이언트
 
