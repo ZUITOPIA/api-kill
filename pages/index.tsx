@@ -5,15 +5,21 @@ import GetDataAtMount4 from "../components/GetDataAtMount4"
 import PostData1 from "../components/PostData1"
 import PostData2 from "../components/PostData2"
 
+import Practice1 from "../components/Practice1"
+
 export default function Page() {
   return (
-    <div>
-      <GetDataAtMount1 />
-      <GetDataAtMount2 />
-      <GetDataAtMount3 />
-      <GetDataAtMount4 />
-      <PostData1 />
-      <PostData2 />
-    </div>
+    <>
+      <div>
+        {/* 가능한 예시 모음 */}
+        <GetDataAtMount1 />
+        <GetDataAtMount2 />
+        <GetDataAtMount3 />
+        <GetDataAtMount4 />
+        <PostData1 />
+        <PostData2 />
+      </div>
+      <Practice1 />
+    </>
   )
 }
