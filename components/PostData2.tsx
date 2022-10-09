@@ -1,5 +1,5 @@
 import axios from "axios"
-import { ChangeEventHandler, useEffect, useState } from "react"
+import { ChangeEventHandler, useState } from "react"
 import { POST_PRODUCT } from "../utils/API_URL"
 
 export default function PostData2() {

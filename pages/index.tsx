@@ -7,6 +7,7 @@ import PostData2 from "../components/PostData2"
 
 import Practice1 from "../components/Practice1"
 import Practice2 from "../components/Practice2"
+import Practice3 from "../components/Practice3"
 
 export default function Page() {
   return (
@@ -22,6 +23,7 @@ export default function Page() {
       </div>
       <Practice1 />
       <Practice2 />
+      <Practice3 />
     </>
   )
 }
