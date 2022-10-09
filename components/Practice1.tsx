@@ -1,5 +1,6 @@
 // async await + try catch + useEffect 세트
-// 중요1, AXIOS GET + try,catch 이용
+
+// 중요1, AXIOS GET + try,catch이용
 // 중요2, 항상 데이터 가져오기 전까지 loading 처리 해주기
 
 import axios from "axios"
@@ -28,7 +29,6 @@ export default function GetPT() {
       {todoList
         ? todoList.todos.map((item: any) => <div>{item.todo}</div>)
         : "로딩중입니다.."}
-      {console.log(todoList)}
     </>
   )
 }
